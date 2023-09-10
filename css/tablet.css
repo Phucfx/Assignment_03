@@ -1,0 +1,63 @@
+@media (max-width: 991.98px) {
+    /* Navbar */
+
+    .text-nav {
+        display: none;
+    }
+
+    /* Certificate - Award */
+
+    .web,
+    .javascript,
+    .database {
+        flex-direction: column;
+    }
+
+    .cer-img {
+        width: 350px;
+    }
+
+    /* Project */
+
+    .project-icon {
+        flex-direction: column;
+    }
+    .year {
+        margin-bottom: 10px;
+    }
+    table td:first-child {
+        width: 20%;
+    }
+
+    /* Project-charter */
+
+    .charter-grid1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .goal,
+    .scope,
+    .teams,
+    .primaries,
+    .timelines {
+        flex-direction: column;
+    }
+    .icon-user {
+        align-self: center;
+    }
+    .bi-question-circle-fill {
+        align-self: center;
+        width: 32px;
+    }
+    .timelines {
+        margin-left: 16px;
+    }
+    .timelines span {
+        margin-left: 24px;
+    }
+    .timeline {
+        order: 5;
+        margin-bottom: 16px;
+    }
+    /* 1 */
+}

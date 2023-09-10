@@ -1,0 +1,67 @@
+@media (max-width: 767.98px) {
+    /* Navbar */
+
+    .text-nav {
+        display: none;
+    }
+
+    #nav-bar a {
+        border-right: none;
+    }
+    #nav-bar a:first-child {
+        border-left: none;
+    }
+
+    /* Certificate - Award */
+
+    .certificat-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cer-img {
+        width: 100%;
+    }
+
+    .web,
+    .javascript,
+    .database {
+        border: none;
+        border-bottom: 1px solid #d6c08d;
+        padding: 0;
+    }
+
+    /* project */
+
+    .project-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .year {
+        margin-left: 16px;
+    }
+
+    /* footer */
+    .contact {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Project-charter */
+    .goals {
+        order: 1;
+    }
+    .scopes {
+        order: 2;
+    }
+    .team {
+        order: 3;
+    }
+    .primary {
+        order: 4;
+    }
+
+    /* 1 */
+}
